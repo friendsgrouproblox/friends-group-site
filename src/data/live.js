@@ -1,5 +1,5 @@
 export const liveState = {
-  status: "scheduled",
+  status: "offline",
   // scheduled | countdown | live | offline
 
   title: "test",
