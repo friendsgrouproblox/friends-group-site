@@ -17,4 +17,11 @@ export const users = [
     password: "67mironov",
     role: "SSM",
   },
+    {
+    login: "Carolina",
+    fid: "FID-00002",
+    password: "kiraloheskaartemgtySEKSparol",
+    role: "Manager",
+  },
+
 ];
