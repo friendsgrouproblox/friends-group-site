@@ -7,8 +7,9 @@ import { liveState } from "./data/live";
 import "./styles/global.css";
 
 import LoginModal from "./components/LoginModal";
-import Navbar from "./components/Navbar";
+/*import Navbar from "./components/Navbar"; */
 
+import Home2 from "./pages/Comingsoon";
 import Home from "./pages/Home";
 import Live from "./pages/Live";
 import Events from "./pages/Events";
@@ -131,12 +132,12 @@ useEffect(() => {
       </div>
 
       {/* NAVBAR */}
-      <Navbar
+     {/* <Navbar
        user={user}
        onOpenLogin={() => setLoginOpen(true)}
        onOpenEdit={() => setEditOpen(true)}
-       onLogout={logout}
-      />
+       onLogout={logout} 
+      /> */}
 
       {/* LOGIN */}
       <LoginModal
@@ -159,7 +160,7 @@ useEffect(() => {
       <main className="page-container">
         <AnimatePresence mode="wait">
   <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home2 />} />
           <Route path="/live" element={<Live />} />
           <Route path="/events" element={<Events />} />
           <Route path="/media" element={<Media />} />
