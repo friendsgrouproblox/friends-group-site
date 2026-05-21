@@ -9,16 +9,16 @@ export default function Comingsoon() {
       <div className="community-hub2">
 
         <div className="community-hero2">
-          <div className="community-label">
-            FGR
+          <div className="community-label2">
+            FGR,INC
           </div>
 
           <h1>
-            Открытие сайта СКОРО!
+            Открытие Скоро!
           </h1>
 
           <p>
-          
+        
           </p>
         </div>
 
