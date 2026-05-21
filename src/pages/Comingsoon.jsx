@@ -14,7 +14,7 @@ export default function Comingsoon() {
           </div>
 
           <h1>
-            Открытие Скоро!
+            Скоро!
           </h1>
 
           <p>
